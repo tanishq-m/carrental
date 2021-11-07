@@ -1,0 +1,183 @@
+<%- include header.ejs %>
+<h1>BOOK YOUR CAR</h1>
+<header>
+  <style >
+    /* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: "50";
+}
+
+.button:hover {
+  background-color: #555;
+}
+  </style>
+</header>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRdNh80uDXgSWaftTUv82jErSqslSKh-XyBw&usqp=CAU" height="245" alt="Harrier" style="width:100%">
+      <div class="container">
+        <h2>HARRIER</h2>
+        <p class="title">Rs. 3105</p>
+        <p>Fuel type - Diesel | 5 seater</p>
+        <p><button class="button" ><a href="/compose">BOOK</a> </button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS35dn6ny_T5Ogf4tDM7ipIY_eJhmPino19jw&usqp=CAU" alt="Nexon" style="width:100%">
+      <div class="container">
+        <h2>NEXON</h2>
+        <p class="title">Rs. 2699</p>
+        <p>Fuel type - Petrol | 5 seater</p>
+        <p><button class="button"><a href="/compose">BOOK</a> </button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtF5jY8GoFpk3ijWOW7y6YKohePqFogImcng&usqp=CAU" alt="Ciaz" height="247" style="width:100%">
+      <div class="container">
+        <h2>CIAZ</h2>
+        <p class="title">Rs. 2299</p>
+        <p>Fuel type - Petrol | 5 seater</p>
+        <p><button class="button" ><a href="/compose">BOOK</a> </button></p>
+      </div>
+    </div>
+  </div>
+
+<div class="column">
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQNCiVQFGPnym0Vx20YJ8E7vcuAItU2V40Ig&usqp=CAU" alt="Scorpio"  style="width:100%">
+    <div class="container">
+      <h2>SCORPIO</h2>
+      <p class="title">Rs. 2499</p>
+      <p>Fuel type - Diesel | 7 seater</p>
+      <p><button class="button" ><a href="/compose">BOOK</a> </button></p>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy_mY-HrruA64dZRu1SqzspjmiHPSP2NA86g&usqp=CAU" alt="Creta" height="245" style="width:100%">
+    <div class="container">
+      <h2>CRETA</h2>
+      <p class="title">Rs. 2499</p>
+      <p>Fuel type - Petrol | 5 seater</p>
+      <p><button class="button" ><a href="/compose">BOOK</a> </button></p>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR9tuM7Br5hNh6TndNFMp-elrk8YE7BF_8uA&usqp=CAU" alt="Amaze" height="245" style="width:100%">
+    <div class="container">
+      <h2>AMAZE</h2>
+      <p class="title">Rs. 2299</p>
+      <p>Fuel type - Diesel | 5 seater</p>
+      <p><button class="button" ><a href="/compose">BOOK</a> </button></p>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNTUw0TegmZd4ioy8uFZmZBirkrSGBzULtFQ&usqp=CAU" alt="Marrazo" height="245" style="width:100%">
+    <div class="container">
+      <h2>MARRAZO</h2>
+      <p class="title">Rs. 2150</p>
+      <p>Fuel type - Diesel | 7 seater</p>
+      <p><button class="button" ><a href="/compose">BOOK</a> </button></p>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhrYvVyps9dhh6xfcPiBxG1A4NJ_VJg5UsIA&usqp=CAU" alt="XUV" height="245" style="width:100%">
+    <div class="container">
+      <h2>XUV</h2>
+      <p class="title">Rs. 2399</p>
+      <p>Fuel type - Diesel | 5 seater</p>
+      <p><button class="button" ><a href="/compose">BOOK</a> </button></p>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkabYr4VGRnZABfg8ST7oB8QJNcFzKiPE8GA&usqp=CAU" alt="Innova" height="245" style="width:100%">
+    <div class="container">
+      <h2>INNOVA</h2>
+      <p class="title">Rs. 2880</p>
+      <p>Fuel type - Diesel | 7 seater</p>
+      <p><button class="button" ><a href="/compose">BOOK</a> </button></p>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjkvD-8x_bIfGMiQIqnLgBhARAbI1f6SLDgA&usqp=CAU" alt="Dzire" height="245" style="width:100%">
+    <div class="container">
+      <h2>DZIRE</h2>
+      <p class="title">Rs. 2289</p>
+      <p>Fuel type - Diesel | 5 seater</p>
+      <p><button class="button" ><a href="/compose">BOOK</a> </button></p>
+    </div>
+  </div>
+</div>
+
+</div>
+<%- include footer.ejs %>

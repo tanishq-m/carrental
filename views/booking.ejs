@@ -1,0 +1,28 @@
+<%- include header.ejs %>
+
+<h1><%=heading%></h1>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Booking ID</th>
+        <th scope="col">Customer Name</th>
+        <th scope="col">Car Number</th>
+        <th scope="col">Booking Date</th>
+        <th scope="col">Number of Days</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <% things.forEach(function(thing){%>
+        <th scope="row"><%=(thing.book_id)%></th>
+        <td><%=(thing.customer_name)%></td>
+        <td><%=(thing.car_regno)%></td>
+        <td><%=(thing.booking_date)%></td>
+        <td><%=(thing.no_of_days)%></td>
+        <%;})%>
+      </tr>
+
+    </tbody>
+  </table>
+
+<%- include footer.ejs %>

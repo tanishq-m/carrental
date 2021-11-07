@@ -1,0 +1,42 @@
+<%- include header.ejs %>
+<h2>Customer Details</h2>
+<form action="/compose" method="POST">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input class="form-control" type="text" name="name">
+        <label for="name">Age</label>
+        <input class="form-control" type="text" name="age">
+        <label for="name">Street</label>
+        <input class="form-control" type="text" name="street">
+        <label for="name">City</label>
+        <input class="form-control" type="text" name="city">
+        <label for="date">Booking-Date</label>
+        <input class="form-control" type="date" name="date"><br>
+        <label for="days">Number of days (between 1 and 30):</label>
+        <input type="number" id="days" name="days" min="1" max="30">
+        <label for="cars">Choose a car:</label>
+        <select name="car_number" id="car_number">
+          <option value="MH1001">Nexon</option>
+          <option value="MH1002">Harrier</option>
+          <option value="MH1003">Ciaz</option>
+          <option value="MH1004">Scorpio</option>
+          <option value="MH1005">Creta</option>
+          <option value="MH1006">Amaze</option>
+          <option value="MH1007">Marazzo</option>
+          <option value="MH1008">XUV</option>
+          <option value="MH1009">Innova</option>
+          <option value="MH1010">Dzire</option>
+        </select>
+    </div>
+    <!--<div class="form-group">
+        <label for="content">Content</label>
+        <textarea class="form-control"  name="content" id="" cols="30" rows="10"></textarea>
+    </div>-->
+    <button class="btn btn-primary" type="submit">Submit</button>
+
+</form>
+
+
+
+
+<%- include footer.ejs %>
